@@ -58,20 +58,8 @@
         <ul class="js-clone-nav d-none d-lg-inline-none site-menu float-right site-nav-wrap">
           <li><a href="#home-section" class="nav-link active">Home</a></li>
           <li><a href="#portfolio-section" class="nav-link">Projects</a></li>
-          <li class="has-children">
+          <li>
             <a href="#about-section" class="nav-link">About</a>
-            <ul class="dropdown">
-              <li><a href="elements.html" class="nav-link">Elements</a></li>
-              <!-- <li class="has-children">
-                <a href="#">Menu Two</a>
-                <ul class="dropdown">
-                  <li><a href="#" class="nav-link">Sub Menu One</a></li>
-                  <li><a href="#" class="nav-link">Sub Menu Two</a></li>
-                  <li><a href="#" class="nav-link">Sub Menu Three</a></li>
-                </ul>
-              </li> -->
-              <!-- <li><a href="#" class="nav-link">Menu Three</a></li> -->
-            </ul>
           </li>
           <li><a href="#services-section" class="nav-link">Services</a></li>
 
@@ -88,7 +76,7 @@
 
 
 
-  <div class="untree_co-section pb-0" id="home-section">
+  <div class="untree_co-section pb-0" id="home-section" style="display: flex; align-items: center; justify-content: center; min-height: 100vh;">
     <div class="container">
       <div class="row justify-content-center text-center">
         <div class="col-md-7">
@@ -96,25 +84,70 @@
           <h2 class="subheading gsap-reveal-hero mb-4">
             I'm all about turning cool ideas into awesome digital stuff. I live and breathe web design and graphic art, and I'm here to make your visuals <strong>pop!</strong>.
           </h2>
-          <!-- <p class="gsap-reveal-hero"><a href="https://untree.co/" target="_blank" class="btn btn-outline-black">More free templates here</a></p>     -->
         </div>
       </div>
-      
     </div>
   </div>
 
 
+  <div class="untree_co-section pb-0" id="about-section">
+    <div class="container">
+      <div class="row justify-content-center mb-3">
+        <div class="col-lg-7 mx-auto text-center author-wrap">
+          <img src="favicon.ico" alt="Image" class="img-fluid rounded-circle mb-3">
+          <h3 class="text-black h5 font-weight-bold mb-2 gsap-reveal-hero">Om Barde</h3>
+          <p class="gsap-reveal-hero">Passionate Developer</p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-7">
+
+
+          <p class="gsap-reveal-hero">With a fervent passion for the world of digital creation, I proudly label myself as both a developer and graphic designer.</p>
+
+          <p class="gsap-reveal-hero">Currently pursuing a Bachelor's degree in Computer Science and Engineering at Symbiosis Institute of Technology, my journey in this dynamic realm has been fueled by an unyielding curiosity and dedication to honing my skills.</p>
+
+          <p class="gsap-reveal-hero">From crafting elegant code that brings websites to life, to meticulously designing visuals that convey messages with impact, I thrive on the process of turning ideas into tangible and meaningful experiences.</p>
+
+          <p class="gsap-reveal-hero">Equipped with a blend of technical expertise and artistic flair, I am committed to delivering work that not only meets but exceeds expectations.</p>
+
+          <p class="gsap-reveal-hero mb-5">As the founder of delegence.com, I've embarked on a mission to bring innovative solutions to the forefront. Join me in exploring the limitless possibilities of the digital landscape, where innovation knows no bounds.</p>
+
+
+          <!-- <p class="gsap-reveal-hero text-center"><a href="https://delegence.com/" target="_blank" class="btn btn-outline-black">Delegence</a></p>     -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
   <div class="untree_co-section untree_co-section-4 pb-0"  id="portfolio-section">
     <div class="container">
-
-
-      <div class="relative"><div class="loader-portfolio-wrap"><div class="loader-portfolio"></div></div> </div>
+      <div class="relative">
+        <div class="loader-portfolio-wrap">
+          <div class="loader-portfolio"></div>
+        </div>
+      </div>
       <div id="portfolio-single-holder"></div>
-
       <div class="portfolio-wrapper">
 
-        <div id="posts" class="row">
+        <div class="untree_co-section pb-0" id="services-section">
+          <div class="container">
+            <div class="row mb-4">
+              <div class="col-lg-7 text-center mx-auto">
+                <h2 class="section-heading gsap-reveal-hero mb-0"><strong>Projects</strong></h2>
+                <p class="gsap-reveal-hero">Exploring My Creative Ventures.</p>
+                <div class="wave gsap-reveal-hero" >
+                  <svg>
+                    <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
 
+        <div id="posts" class="row">
           <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
             <a href="portfolio-single-1.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
               <div class="overlay">
@@ -124,24 +157,9 @@
                   <p>web, branding</p>
                 </div>
               </div>
-              <img src="images/weather_img.png" class="lazyload  img-fluid" alt="Images" />
+              <img src="images/weather_img.png" class="lazyload img-fluid" alt="Images" style="height: 200px; object-fit: cover;" />
             </a>
           </div>
-
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Comming Soon</h3>
-                  <p>web, branding</p>
-                </div>
-              </div>
-              <img src="images/commingsoon2.png" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
 
           <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
             <a href="portfolio-single-2.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="2">
@@ -152,184 +170,32 @@
                   <p>Web, application</p>
                 </div>
               </div>
-              <img src="images/delegence_img.jpg" class="lazyload  img-fluid" alt="Images"/>
+              <img src="images/delegence_img.jpg" class="lazyload img-fluid" alt="Images" style="height: 200px; object-fit: cover;" />
             </a>
           </div>
 
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Coming Soon</h3>
+                  <p>web, branding</p>
+                </div>
+              </div>
+              <img src="images/commingsoon2.png" class="lazyload img-fluid" alt="Images" style="height: 200px; object-fit: cover;" />
+            </a>
+          </div>
           
-
-          <!-- <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Powerful Speaker</h3>
-                  <p>web, branding</p>
-                </div>
-              </div>
-              <img src="images/img_4.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Wireless Headset</h3>
-                  <p>web, branding</p>
-                </div>
-              </div>
-              <img src="images/img_5.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-1.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Black & White Cubic</h3>
-                  <p>web, branding</p>
-                </div>
-              </div>
-              <img src="images/img_6.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-2.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="2">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Nike Shoe</h3>
-                  <p>illustration, application</p>
-                </div>
-              </div>
-              <img src="images/img_7.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Old Typewriter</h3>
-                  <p>web, branding</p>
-                </div>
-              </div>
-              <img src="images/img_8.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Walking Man</h3>
-                  <p>web, branding</p>
-                </div>
-              </div>
-              <img src="images/img_9.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Progress Journal</h3>
-                  <p>web, branding</p>
-                </div>
-              </div>
-              <img src="images/img_10.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>The Dog</h3>
-                  <p>web, branding</p>
-                </div>
-              </div>
-              <img src="images/img_11.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Beautiful Woman</h3>
-                  <p>web, branding</p>
-                </div>
-              </div>
-              <img src="images/img_12.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Book Binding</h3>
-                  <p>web, branding</p>
-                </div>
-              </div>
-              <img src="images/img_2.jpg" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div> -->
-
-
-        </div>
-      </div>
-
-
-        <!-- </div>
-        </div> -->
-      </div>
-    </div>
-
-
-    <div class="untree_co-section pb-0" id="about-section">
-      <div class="container">
-        <div class="row justify-content-center mb-3">
-          <div class="col-lg-7 mx-auto text-center author-wrap">
-            <img src="favicon.ico" alt="Image" class="img-fluid rounded-circle mb-3">
-            <h3 class="text-black h5 font-weight-bold mb-2 gsap-reveal-hero">Om Barde</h3>
-            <p class="gsap-reveal-hero">Passionate Developer</p>
-          </div>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-lg-7">
-
-
-            <p class="gsap-reveal-hero">With a fervent passion for the world of digital creation, I proudly label myself as both a developer and graphic designer.</p>
-
-            <p class="gsap-reveal-hero">Currently pursuing a Bachelor's degree in Computer Science and Engineering at Symbiosis Institute of Technology, my journey in this dynamic realm has been fueled by an unyielding curiosity and dedication to honing my skills.</p>
-
-            <p class="gsap-reveal-hero">From crafting elegant code that brings websites to life, to meticulously designing visuals that convey messages with impact, I thrive on the process of turning ideas into tangible and meaningful experiences.</p>
-
-            <p class="gsap-reveal-hero">Equipped with a blend of technical expertise and artistic flair, I am committed to delivering work that not only meets but exceeds expectations.</p>
-
-            <p class="gsap-reveal-hero mb-5">As the founder of delegence.com, I've embarked on a mission to bring innovative solutions to the forefront. Join me in exploring the limitless possibilities of the digital landscape, where innovation knows no bounds.</p>
-
-
-            <!-- <p class="gsap-reveal-hero text-center"><a href="https://delegence.com/" target="_blank" class="btn btn-outline-black">Delegence</a></p>     -->
-          </div>
         </div>
       </div>
     </div>
+  </div>
+  
+
+
+    
 
 
     <div class="untree_co-section pb-0" id="services-section">
